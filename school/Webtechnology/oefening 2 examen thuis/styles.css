@@ -1,0 +1,143 @@
+/* Teksttpe */
+@font-face {
+    font-family: 'dhurjati';
+    src: url('fonts/Dhurjati-Regular.ttf');
+}
+
+/* Teksttype business */
+h5{
+    font-family: dhurjati;
+}
+
+
+/* Heel de pagina */
+body{
+    background-color: rgba(43, 43, 182, 0.938);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Witte pagina in het midden */
+.page{
+    width: 60%;
+    height: 80%;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 1.4343434px 30px 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+
+}
+
+/* Bovenste deel */
+.up{
+   
+    height: 250px;
+    width: 550px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+/* Tekste in eerste deel */
+h6{
+    color: gray;
+    opacity: 0.8px;
+    font-size: 10px;
+}
+
+/* Middelste deel */
+.middle{
+    border: 1px solid black;
+
+    height: 230px;
+    width: 550px;
+
+    background-color: rgb(245, 239, 239);
+    border: none;
+    box-shadow: 1px 1px 40px rgb(245, 239, 239);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Onderste deel */
+.bottom{
+
+
+    height: 250px;
+    width: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Getallen van onder */
+.Bedragen{
+    display: flex;
+
+}
+
+/* Getal1 */
+.b1{
+    margin-right: 20px;
+
+}
+
+/* Getal2 */
+.b2{
+    margin-right: 20px;
+
+}
+
+/* Button van onder */
+.MeerINfo{
+    border: 1px solid blue;
+    border-radius: 3px;
+
+    width: 100px;
+    height: 30px;
+
+    margin-top: 100px;
+
+    background-color: rgb(89, 89, 236);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+/* Button van onder als je erover schuift */
+.MeerInfo:hover{
+    box-shadow: 1px 1px 40px blue;
+
+}
+
+/* Tekstje onder button */
+.Cancel{
+    font-size: 12px;
+
+    color: rgb(70, 70, 173);
+
+    margin-top: 4px;
+
+    cursor: pointer;
+}

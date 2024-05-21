@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('fonts/Genos-VariableFont_wght.ttf');
+}
+
+
+
+body{
+    background-image: url(images/image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: pacifico;
+
+}
+.tekstje {
+    background-size: cover;
+    background-position: center;
+    border: 10px solid;
+    border-radius: 50px;
+    border-color: rgba(165, 42, 42, 0.048);
+    box-shadow: 1px 10px 10px black;
+    overflow: hidden;
+    
+  }
+
+  .tekstje p {
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: 1, 1, 10, black;
+  
+  }
+
+  .verborgen {
+    display: none;
+}
+
+.onzichtbaar{
+  display: none;
+}
+
+
+/* knmerken van de knop */
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* kenmerken van de checklist en bulletpoint */
+.labels{
+  font-size: 35px;
+  color: white;
+
+}
+
+
+/* tijd van wanneer de animatie moet beginnen wanneer je erover swiped */
+.startknop{
+  transition: 1s;;
+}
+
+
+
+/* Animatie als je over de knop swiped */
+.startknop:hover{
+  border-radius: 45px;
+  font-size: 40px;
+  text-decoration: underline;
+  color: white;
+}
+
+
+
+
+

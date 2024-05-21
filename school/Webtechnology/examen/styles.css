@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/Anton-Regular.ttf');
+}
+
+
+
+
+
+body{
+    background-color: 1B4242;
+
+    margin: 0;
+
+}
+
+h1{
+    font-size: 50px;
+    color: rebeccapurple;
+
+    margin-left: 8;
+
+}
+
+h4{
+    font-size: 25;
+
+    margin-left: 88;
+}
+
+
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    height: 80px;
+
+    
+
+    background-color: rgb(47, 48, 51);
+
+}
+
+a{
+    padding-top: 5px;
+    padding-right: 15px;
+
+    
+
+
+
+    text-decoration: none;
+    font-size: 25px;
+
+    color: rgb(7, 101, 129);
+}
+
+a:hover{
+
+    border: solid;
+    border-radius: 10%;
+    border-color: gray;
+}
+
+.Linkerkant{
+    margin-right: 750;
+
+    font-size: 25px;
+    color: rgb(7, 101, 129);
+
+    font-weight: 1000;
+    font-family: "font2";
+
+
+}
+
+.MeerInfo{
+    box-shadow: 1px 1px 40px rgb(7, 101, 129);
+    border: 1px solid black;
+
+
+    margin-right: 780;
+
+    font-size: 25;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Y{
+    
+    font-family: "font1";
+    font-weight: 1000;
+    color: rebeccapurple;
+}
+
+.Bovenkant{
+    
+
+    height: 250px;
+    width: 750px;
+
+    
+
+    margin-top: 65px;
+    margin-left: 55px;
+}
+
+.Middel1{
+    margin-left: 40;
+}
+
+.Middel2{
+    margin-left: 40;
+}
+
+.tabel{
+    margin-left: 40;
+}
+
+.Onderkant{
+    margin-left: 40;
+}
+
+.puntjes{
+    font-size: 25;
+    margin-left: 70;
+}
+

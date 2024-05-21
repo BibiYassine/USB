@@ -1,0 +1,34 @@
+body{
+    
+        background-color: 1B4242;
+    
+        margin: 8;
+    
+}
+
+.MeerInfo{
+    box-shadow: 1px 1px 40px rgb(7, 101, 129);
+    border: 1px solid black;
+
+
+
+    font-size: 50;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tekst{
+    text-decoration: none;
+
+}
+
+.fotos{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    
+    
+}

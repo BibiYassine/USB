@@ -1,0 +1,127 @@
+/* Text font */
+@font-face {
+    font-family: 'dhurjati';
+    src: url('fonts/Dhurjati-Regular.ttf');
+}
+
+/* Hele scherm */
+body{
+    color: white;
+
+    margin: 0px;
+}
+
+/* Balk van boven */
+nav{
+    display: flex;
+    justify-content: end;
+    
+    flex-direction: row;
+}
+
+/* Tekst van balk boven */
+a{
+    padding-right: 5px;
+    padding-top: 15px;
+
+    color: black;
+
+    text-decoration: none;
+
+}
+
+/* Tekst van balk boven als je erover gaat */
+a:hover{
+
+    border: solid;
+    border-radius: 10%;
+    border-color: orange;
+}
+
+/* Inhoud van blauwe vierkant */
+.paars{
+    background-color: blue;
+    height: 80%;
+    width: 80%;
+
+    font-family: dhurjati;
+    font-size: 35px;
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Inhoud van oranje vierkant */
+.oranje{
+    background: orangered;
+    height: 80%;
+    width: 80%;
+
+    font-family: dhurjati;
+    font-size: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Blauwe en oranje vierkant */
+.border{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100%;
+    
+
+}
+
+/* Knoppen van blauwe en oranje vierkanten */
+.button{
+   margin-top: 12px;
+
+   height: 50px;
+   width: 100px;
+
+   border: solid;
+   box-shadow: 1px 1px 1px 1px;
+
+}
+
+/* Foto van boven */
+img{
+    height: 55;
+    width: 55;
+}
+
+/* Logo instellingen */
+.images{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    height: 50px;
+    cursor: pointer;
+
+
+
+    margin-right: 1600;
+}
+
+/* Tekst van onder */
+.tekst{
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    height: 50%;
+}
+

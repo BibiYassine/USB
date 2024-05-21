@@ -1,0 +1,83 @@
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>JavaScript basics</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+	<body>
+
+
+<div class="alles">
+  <div id="doorschijnend" class="labels">
+
+<!-- Deze codeblok zorgt voor de checklist en de bulletpoint -->
+        <label class="formTitle">Enemy combo:</label><br>
+        <input type="checkbox" name="enemy" id="combo1" value="Wizards" checked>
+        <label>Wizards</label><br>
+        <input type="checkbox" name="enemy" id="combo2" value="Monkeys" checked>
+        <label>Monkeys</label><br>
+
+        
+        <label class="formTitle">Enemy name:</label><br>
+        <input type="radio" name="enemy" value="Messi">
+        <label>Messi</label>
+        <input type="radio" name="enemy" value="Ronaldo">
+        <label>Ronaldo</label>
+        <br>
+
+
+
+            <!-- Deze code zorgt ervoor dat je een naam kan in geven in een balk -->
+            <div>
+              <label class="formTitle">Your name:</label><br>
+              <input type="text" id="naamTextfield" placeholder="Enter your name">
+            </div>
+
+            <!-- Zorgt voor een knop dat je door stuurt naar het verhaal -->
+            <div class="startknop"> 
+              <a href="#" id="toonVerhaal">Click Here</a>
+            </div>
+
+            <!-- Zorgt ervoor dat de naam of woord dat je ingeeft wordt opgeslagen in uw tekst. -->
+            <form id="formulier" class="frame"></form>
+
+</div>
+</div>
+
+
+
+<div id= "transparant" class="onzichtbaar">
+<div class="tekstje" >
+                <div  id="verhaal" class="verborgen">
+                
+                    <p>
+                      Welcome <span id="name"></span><br>
+                      Story: 
+              The Goblin's and the <span id="chosenBox"></span> garden.
+
+              In a <span class="random-word" id="hoek"> hidden</span> corner of the Enchanted Forest, where <span class="random-word" id="licht">sunlight</span> struggled to pierce the dense canopy, a band of <span id="enemy"></span> led by their chieftain, Snaggletooth, scurried about, causing their usual mischief. But amidst their shenanigans and raucous laughter, one goblin named Fizzle stood apart, captivated by a secret longing.
+
+              While his brethren reveled in stealing trinkets and tormenting woodland creatures, Fizzle found solace in something far more peculiar—he <span class="random-word" id="gevoel">loved</span> plants. Not just any plants, but rare and exotic flora that whispered ancient secrets. Whenever he could steal a moment away from his duties, Fizzle would sneak into a secluded glade where he tended to a hidden garden of his own creation.
+
+              Unknown to Fizzle, his secret garden held a power far greater than he could imagine. Each plant he nurtured—be it the luminescent moonfern or the elusive whispering orchid—possessed magical properties that could either heal or harm, depending on the intent of the one who wielded them.
+
+              One fateful day, as Fizzle was meticulously pruning a crystal thornbush, he overheard Snaggletooth plotting to raid the neighboring fairy kingdom. Horrified by the impending disaster, Fizzle knew he had to act <span class="random-word" id="snelheid">fast</span>. Fizzle's heart raced at the thought of the impending danger. He needed to move <span id="snelheid">fast</span> if he wanted to save the enchanted realm.
+
+              Suddenly, a mystical number appeared in his mind: <span id="number">1</span>. It whispered secrets of ancient spells that could thwart Snaggletooth's sinister plans.
+
+              With determination in his eyes, Fizzle hatched a plan to use the power of the  king protect the fairy kingdom and preserve the delicate balance of the Enchanted Forest.
+              </div>
+
+       </p>
+    </div>
+  </div>
+</div>
+	<!-- de script-tag moet onderaan body staan -->
+	<script src="script.js"></script>
+
+	</body>
+</html>

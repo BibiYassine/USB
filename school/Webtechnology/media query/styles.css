@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(1, 175, 123);
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px
+
+}
+
+.navigation_bar {
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+.galary_bar {
+    border: 1px solid black;
+    height: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+}
+
+.image_one, .image_two, .image_three {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+

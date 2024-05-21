@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner toetsenbord = new Scanner(System.in);
+        String zin, nieuweZin = "", nieuweZinTwee = "";
+        char karakters, karaktersTwee;
+        int klinkerTeller = 0, leestekenTeller = 0, accoladeTeller = 0, cijferTeller = 0;
+
+
+        do {
+            System.out.print("Geef een zin: ");
+            zin = toetsenbord.nextLine();
+        } while (!((zin.charAt(0) >= 'A' && zin.charAt(0) <= 'Z') && (zin.endsWith("!") || zin.endsWith("?"))));
+        for (int teller = 0; teller <= zin.length() / 2; teller++) {
+            karakters = zin.charAt(teller);
+            if ((karakters == 'A' || karakters == 'E' || karakters == 'I' || karakters == 'O' || karakters == 'U') || (karakters == 'a' || karakters == 'e' || karakters == 'i' || karakters == 'o' || karakters == 'u')) {
+                klinkerTeller++;
+            } else if (karakters == '!' || karakters == ',' || karakters == ';' || karakters == '?' || karakters == '.' || karakters == ':') {
+                leestekenTeller++;
+            } else if (karakters == '{' || karakters == '}') {
+                accoladeTeller++;
+            } else if (karakters >= '0' && karakters <= '9') {
+                cijferTeller++;
+            }
+        }
+        for (int tellerTwee = zin.length() - 1; tellerTwee <= zin.length() / 2; tellerTwee--) {
+            karaktersTwee = zin.charAt(tellerTwee);
+            if ((karaktersTwee == 'a' || karaktersTwee == 'e' || karaktersTwee == 'i' || karaktersTwee == 'o' || karaktersTwee == 'u')) {
+                nieuweZinTwee += '*';
+            } else if (karaktersTwee == '!' || karaktersTwee == ',' || karaktersTwee == ';' || karaktersTwee == '?' || karaktersTwee == '.' || karaktersTwee == ':') {
+                nieuweZinTwee += '-';
+            } else if (karaktersTwee >= '0' && karaktersTwee <= '9') {
+                nieuweZinTwee += '#';
+            }
+        }
+        System.out.println("Aantal klinkers in de eerste helft van de zin: " + klinkerTeller);
+        System.out.println("Aantal leestekens in de eerste helft van de zin: " + leestekenTeller);
+        System.out.println("Aantal accolades in de eerste helft van de zin: " + accoladeTeller);
+        System.out.println("Aantal cijfers in de eerste helft van de zin: " + cijferTeller);
+        System.out.println(nieuweZin);
+        System.out.println(nieuweZinTwee);
+    }
+}

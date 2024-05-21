@@ -1,0 +1,36 @@
+body{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+
+
+.sidebar {
+    width: 20%;
+    min-width: 130px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: burlywood;
+    
+}
+
+.sidebar h1::first-letter {
+    color: red;
+}
+
+.sidebar h2::before {
+    content: "\25BA";
+    color: blue;
+}
+
+.sidebar a {
+    text-decoration: underline;
+    color: green;
+}

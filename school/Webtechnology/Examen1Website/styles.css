@@ -1,0 +1,141 @@
+
+/*FrontPage*/
+
+/*Navigation bar Style*/
+
+body {
+    margin:0px
+}
+
+nav {
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 0;
+    width: 100%;
+    border: none;
+}
+
+
+img {
+    height: 50px;
+    size: 50px;
+}
+
+
+.alwaysCHILD {
+    margin-right: 250px;
+    font-size: 9;
+    font-weight: bold;
+
+}
+
+.NavStructure {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    border: 2px solid rgb(255, 175, 100);
+    border-radius: 5px;
+    color:  rgb(116, 116, 255);
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.borders {
+    display: flex;
+}
+
+.border1 {
+    border: 1px solid black;
+    width: 50%;
+    height: 500px;
+    background: rgb(116, 116, 255);
+    border: none;
+}
+.border2 {
+    border: 1px solid black;
+    width: 50%;
+    height: 500px;
+    background: rgb(255, 139, 139);
+    border:none;
+}
+
+.TextInBorders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.ButtonFirst {
+    background-color: rgb(116, 116, 255);;
+    border-color: white;
+    border-radius: 20px;
+    width: 140;
+    height: 50;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(255, 139, 139);
+    border-color: Linear-gradient(rgb(77, 77, 255),rgb(255, 139, 139) );
+}
+
+
+.ButtonFirst:hover {
+    border-color: black;
+    box-shadow: 2px 2px 2px rgb(77, 77, 255);
+    opacity: 0.8;
+}
+
+
+.ButtonSecond {
+    background-color: rgb(255, 139, 139);
+    border-color: white;
+    border-radius: 20px;
+    width: 140;
+    height: 50;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(77, 77, 255);
+    border-color: Linear-gradient(rgb(77, 77, 255),rgb(255, 139, 139) );
+}
+
+
+.ButtonSecond:hover {
+    border-color: black;
+    box-shadow: 2px 2px 2px rgb(255, 108, 108);
+    opacity: 0.3;
+}
+
+
+h5 {
+    opacity: 0.8;
+}
+
+/*FrontPage end ---------------------------------*/ 
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text2{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 500px;
+    border: none;
+    opacity: 0.6;
+    color: gray
+}
